@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mesophils_cities:block/city_portal_ew"
+    },
+    "axis=x": {
+      "model": "mesophils_cities:block/city_portal_ns"
+    }
+  }
+}

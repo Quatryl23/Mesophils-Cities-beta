@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/reinforced_deepslate_bottom",
+    "top": "minecraft:block/reinforced_deepslate_top",
+    "side": "minecraft:block/reinforced_deepslate_side",
+    "overlay": "minecraft:block/reinforced_deepslate_side",
+    "particle": "minecraft:block/reinforced_deepslate_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

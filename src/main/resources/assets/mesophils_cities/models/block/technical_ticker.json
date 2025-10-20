@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mesophils_cities:block/tick_block_top_bottom",
+    "up": "mesophils_cities:block/tick_block_target",
+    "north": "mesophils_cities:block/tick_block_side",
+    "east": "mesophils_cities:block/tick_block_side",
+    "south": "mesophils_cities:block/tick_block_side",
+    "west": "mesophils_cities:block/tick_block_side",
+    "particle": "mesophils_cities:block/tick_block_top_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

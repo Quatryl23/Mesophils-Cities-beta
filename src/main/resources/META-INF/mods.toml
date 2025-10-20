@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="mesophils_cities"
+version="0.1.0"
+displayName="Mesophil\u00B4s Cities"
+displayURL="https://github.com/Quatryl23/Mesophils-cities"
+logoFile="logo.png"
+credits="Developed by Mesophil; Textures by RiRa and Mesophil; Structures by RiRa, Mesophil and others"
+authors="MesoMods (Developer: Mesophil)"
+description="Adds a city dimension with a huge variety of buildings. Explore a dimension full of streets, houses and other beautiful structures that form the never ending city. Find the perfect house to live in or to replace with your own house. Enjoy the random but perfectly precise terrain generation. Create your own styles easily with datapacks. Whatever you've always wanted to do in a endless city in minecraft, now you can!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.mesophils_cities]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.mesophils_cities]]
+    modId="refurbished_furniture"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
