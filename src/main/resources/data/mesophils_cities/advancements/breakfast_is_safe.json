@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mesophils_cities:silverfish_bottle"
+    },
+    "title": {
+      "translate": "advancements.breakfast_is_safe.title"
+    },
+    "description": {
+      "translate": "advancements.breakfast_is_safe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "breakfast_is_safe_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

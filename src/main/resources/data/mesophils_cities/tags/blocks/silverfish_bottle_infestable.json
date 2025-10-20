@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone_bricks",
+    "minecraft:stone",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:deepslate",
+    "minecraft:cobblestone",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:reinforced_deepslate"
+  ]
+}

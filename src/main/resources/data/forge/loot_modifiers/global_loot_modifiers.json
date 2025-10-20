@@ -1,0 +1,13 @@
+{
+  "entries": [
+    "mesophils_cities:reinforced_deepslate",
+    "mesophils_cities:silverfish_bottle_stronghold",
+    "mesophils_cities:silverfish_bottle_dungeon",
+    "mesophils_cities:reinforced_plate_mason",
+    "mesophils_cities:reinforced_plate_shipwreck",
+    "mesophils_cities:reinforced_plate_dungeon",
+    "mesophils_cities:reinforced_plate_toolsmith",
+    "mesophils_cities:reinforced_plate_weaponsmith"
+  ],
+  "replace": false
+}

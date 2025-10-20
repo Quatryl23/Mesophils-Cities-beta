@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mesophils_cities:city_biome",
+  "features": "mesophils_cities:data",
+  "step": "underground_decoration"
+}

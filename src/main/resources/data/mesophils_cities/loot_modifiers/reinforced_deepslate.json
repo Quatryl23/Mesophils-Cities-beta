@@ -1,0 +1,10 @@
+{
+  "type": "mesophils_cities:mesophils_cities_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/reinforced_deepslate"
+    }
+  ],
+  "lootTable": "mesophils_cities:blocks/reinforced_deepslate_plate_drop"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:gray_concrete"
+    },
+    "title": {
+      "translate": "advancements.minecraft_but_in_2050.title"
+    },
+    "description": {
+      "translate": "advancements.minecraft_but_in_2050.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft_but_in_2050_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mesophils_cities:city"
+      }
+    }
+  }
+}

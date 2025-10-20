@@ -1,0 +1,10 @@
+{
+  "type": "mesophils_cities:mesophils_cities_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "chests/village/village_toolsmith"
+    }
+  ],
+  "lootTable": "mesophils_cities:chests/reinforced_plate_uncommon"
+}

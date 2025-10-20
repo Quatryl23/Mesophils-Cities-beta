@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "mesophils_cities:reinforcing_metals"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "mesophils_cities:reinforced_plate",
+    "count": 4
+  }
+}

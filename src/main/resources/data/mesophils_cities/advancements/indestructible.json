@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mesophils_cities:reinforced_plate"
+    },
+    "title": {
+      "translate": "advancements.indestructible.title"
+    },
+    "description": {
+      "translate": "advancements.indestructible.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "indestructible_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

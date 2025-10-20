@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#mesophils_cities:station_z_a",
+    "#mesophils_cities:station_x_a"
+  ]
+}

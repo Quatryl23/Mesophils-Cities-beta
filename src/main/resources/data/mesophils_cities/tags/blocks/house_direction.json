@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#mesophils_cities:direction_west",
+    "#mesophils_cities:direction_north",
+    "#mesophils_cities:direction_south",
+    "#mesophils_cities:direction_east",
+    "#mesophils_cities:portal_house_direction"
+  ]
+}
