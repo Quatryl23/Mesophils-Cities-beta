@@ -48,6 +48,7 @@ public class CityTemplatePoolLoader extends SimpleJsonResourceReloadListener {
     public static Map<String,CityTemplateType> CustomTemplatePool = new HashMap<>();
     public static Map<String,CityMultiPieceTemplateList> SpecialTemplatePool = new HashMap<>();
     public static int templateCount = 0;
+    public static boolean showNoStylePackWarning = true;
 
     public CityTemplatePoolLoader() {
     	super(GSON, "worldgen/city_template_pool");
@@ -140,6 +141,7 @@ public class CityTemplatePoolLoader extends SimpleJsonResourceReloadListener {
     protected void apply(Map<ResourceLocation, JsonElement> jsonMap, ResourceManager resourceManager, ProfilerFiller profiler) {
     	LogManager.getLogger().info("Loading city templates from datapacks");
     	templateCount = 0;
+    	showNoStylePackWarning = true;
         jsonMap.entrySet().stream()
         .sorted((entry1, entry2) -> {
         	boolean e1special = entry1.getKey().getPath().substring(0,7).equals("special");
@@ -148,6 +150,7 @@ public class CityTemplatePoolLoader extends SimpleJsonResourceReloadListener {
         	if (!e1special && e2special) return -1;
         	return 0;
         }).forEach((entry) -> {
+        	showNoStylePackWarning = false;
         	ResourceLocation id = entry.getKey();
         	JsonElement jsonElement = entry.getValue();
             String resourcePath = id.getPath();
@@ -423,10 +426,7 @@ public class CityTemplatePoolLoader extends SimpleJsonResourceReloadListener {
         	LogManager.getLogger().info("All needed city templates have been provided; No additional fallback city templates were loaded");
         } else {
         	LogManager.getLogger().warn("Datapacks have not provided all needed city templates; Loaded " + templateCount + " fallback city templates");
-        }
-        
-
-       
+        }    
     }
 
     private void jsonToTemplateType(JsonObject json, CityTemplateType type, String jsonLocation, @Nullable CityTemplateType secondaryType) {
