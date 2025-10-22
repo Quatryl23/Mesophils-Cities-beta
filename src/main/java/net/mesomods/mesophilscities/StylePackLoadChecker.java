@@ -17,6 +17,7 @@ public class StylePackLoadChecker {
 		CompoundTag playerData = player.getPersistentData();
 		CompoundTag data = playerData.getCompound(Player.PERSISTED_NBT_TAG);
 		if (CityTemplatePoolLoader.showNoStylePackWarning) {
+			if (data.contains("suppressStylePackWarning")) return;
 			MesophilsCitiesModNetwork.CHANNEL.send(PacketDistributor.PLAYER.with(() -> player), new StylePackLoadCheckerPacket(true));
 		} else {
 			if (data.contains("suppressStylePackWarning")) {
